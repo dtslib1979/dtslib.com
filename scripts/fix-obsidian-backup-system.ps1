@@ -100,7 +100,7 @@ if (Test-Path $mcpConfigPath) {
         "@modelcontextprotocol/server-github"
       ],
       "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_pwxfyuX2o8GMUQopdCvcTTfixLa3sf28QGxw"
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "$env:GITHUB_PERSONAL_ACCESS_TOKEN"
       }
     },
     "filesystem": {
@@ -121,7 +121,7 @@ if (Test-Path $mcpConfigPath) {
         "C:\\Program Files\\nodejs\\npx.cmd", 
         "-y",
         "obsidian-mcp",
-        "$uncleParksyPath"
+        "$($uncleParksyPath)"
       ]
     }
   }
