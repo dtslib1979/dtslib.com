@@ -19,7 +19,7 @@ export default function Home() {
             to={`/category/${category.slug}`}
             className="block bg-white rounded-lg shadow hover:shadow-lg transition-shadow overflow-hidden"
           >
-            {/* Special rendering for EAE Blueprint with YouTube Shorts */}
+            {/* Special rendering for DTS Blueprint with YouTube Shorts */}
             {category.youtubeShorts ? (
               <div className="relative">
                 {/* YouTube Shorts embed with autoplay */}

@@ -1,5 +1,5 @@
 // Universal Report Template Engine Components
-// EAE Skillset6 / EduArt OS v1.0
+// DTS Library Skillset6 / DTS OS v1.0
 
 export { default as OpeningFrame } from './OpeningFrame';
 export { default as Part1 } from './Part1';

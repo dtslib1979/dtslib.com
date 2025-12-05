@@ -9,11 +9,11 @@ export default function About() {
       </div>
       
       <article className="prose prose-invert prose-neutral lg:prose-xl mx-auto">
-        <h1 className="text-4xl font-bold mb-8 text-slate-50">About EAE</h1>
+        <h1 className="text-4xl font-bold mb-8 text-slate-50">About DTS Library</h1>
         
         <div className="space-y-4">
           <p>
-            Welcome to EAE, a Progressive Web App built with React, Vite, and MDX.
+            Welcome to DTS Library, a Progressive Web App built with React, Vite, and MDX.
           </p>
           
           <h2 className="text-2xl font-bold mt-8 mb-4 text-slate-50">Categories</h2>

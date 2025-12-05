@@ -24,8 +24,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
       manifest: {
-        name: 'EAE PWA',
-        short_name: 'EAE',
+        name: 'DTS Library',
+        short_name: 'DTS Library',
         start_url: '/',
         display: 'standalone',
         background_color: '#0b0b10',
