@@ -9,6 +9,9 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Use root path for custom domain (www.dtslib.com)
+  // GitHub Pages will work at both www.dtslib.com and dtslib1979.github.io/dtslib.com/
+  base: '/',
   plugins: [
     { enforce: 'pre', ...mdx({
       remarkPlugins: [
