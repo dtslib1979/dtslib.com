@@ -6,9 +6,9 @@
 export const CATEGORIES = [
   { 
     slug: 'eae-blueprint', 
-    name: '🏗️ EAE Blueprint', 
+    name: '🏗️ DTS Blueprint', 
     icon: '🏗️',
-    // YouTube video for EAE Blueprint category card
+    // YouTube video for DTS Blueprint category card
     youtubeShorts: 'https://youtu.be/6T3mibse3Q4?si=bgubKNvV6LjEobqC'
   },
   { slug: 'qsketch', name: 'Quick Sketch' },

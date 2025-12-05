@@ -1,4 +1,4 @@
-name: Deploy eae.kr
+name: Deploy dtslib.com
 
 on:
   push:
