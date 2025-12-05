@@ -32,11 +32,14 @@ Once GitHub Pages is enabled:
 ### Step 3: Custom Domain (Optional)
 
 If you want to use a custom domain:
-1. In the Pages settings, enter your custom domain (e.g., `www.eae.kr`)
+1. In the Pages settings, enter your custom domain (e.g., `www.dtslib.com`)
 2. Make sure the `CNAME` file in the **`public/`** folder (source directory) matches your domain
    - Vite automatically copies files from `public/` to `dist/` during build
-   - The file should contain only the domain name: `www.eae.kr` (no protocol, no trailing slash)
+   - The file should contain only the domain name: `www.dtslib.com` (no protocol, no trailing slash)
 3. Configure your DNS provider to point to GitHub Pages
+
+**Note:** Without a custom domain configured, the site will be accessible at:
+- **https://dtslib1979.github.io/dtslib.com/**
 
 ## Workflow Details
 

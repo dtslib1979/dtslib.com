@@ -1,8 +1,8 @@
-# EAE PWA Site
+# DTS Library PWA Site
 
 A fully functional Progressive Web App built with React, Vite, MDX, TailwindCSS, and deployed on GitHub Pages.
 
-**Live Site:** [www.eae.kr](https://www.eae.kr)
+**Live Site:** [www.dtslib.com](https://www.dtslib.com)
 
 ## Tech Stack
 
@@ -190,7 +190,13 @@ The deployment workflow:
 
 ### Custom Domain
 
-The CNAME file in the `public` folder configures the custom domain `www.eae.kr`.
+The CNAME file in the `public` folder configures the custom domain `www.dtslib.com`.
+
+If the custom domain DNS is not yet configured, the site will be accessible at:
+- **https://dtslib1979.github.io/dtslib.com/**
+
+Once DNS is configured for www.dtslib.com, it will also be accessible at:
+- **https://www.dtslib.com**
 
 ## License
 
