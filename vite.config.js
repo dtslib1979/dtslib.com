@@ -6,6 +6,15 @@ import remarkFrontmatter from 'remark-frontmatter'
 import remarkMdxFrontmatter from 'remark-mdx-frontmatter'
 import rehypeSlug from 'rehype-slug'
 import { VitePWA } from 'vite-plugin-pwa'
+import { copyFileSync, existsSync } from 'fs'
+import { resolve } from 'path'
+
+// Copy logo to public folder before build
+const logoSrc = resolve(__dirname, 'dtslib.kr-logo.png')
+const logoDest = resolve(__dirname, 'public/dtslib.kr-logo.png')
+if (existsSync(logoSrc) && !existsSync(logoDest)) {
+  copyFileSync(logoSrc, logoDest)
+}
 
 export default defineConfig({
   base: "/",
